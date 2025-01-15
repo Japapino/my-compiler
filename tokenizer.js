@@ -43,8 +43,6 @@ function tokenizer(input) {
       continue;
     }
 
-    console.log("tokens: ", tokens);
-
     throw new TypeError(`Unknown char: '${char}'`);
   }
 
