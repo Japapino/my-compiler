@@ -3,4 +3,4 @@ const input = `(add 2 (subtract 4 3))`; // string of our Lisp code to compile in
 const output = compiler(input);
 
 console.log("--- RESULT ----");
-console.log(JSON.stringify(output, null, 2));
+console.log("result: ", output);
