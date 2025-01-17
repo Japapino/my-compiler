@@ -8,7 +8,7 @@ module.exports = function parser(tokens) {
     if (token.type === "number") {
       current++;
       return {
-        type: "numberLiteral",
+        type: "NumberLiteral",
         value: token.value,
       };
     }
